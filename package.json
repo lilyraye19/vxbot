@@ -1,15 +1,10 @@
 {
-  "name": "discordbotyou",
+  "name": "vxbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
- "scripts": {
-  "start": "node index.js"
- },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.25.1"
   }
