@@ -22,7 +22,9 @@ client.on('messageCreate', async (message) => {
       return url
         .replace(/(https?:\/\/)(x\.com|twitter\.com)/, '$1vxtwitter.com');    });
 
-    await message.channel.send(newContent);
+    await message.channel.send(
+  `【${message.author.displayName}】\n${newContent}`
+);
 
     await message.delete(); // 元のメッセージ消す
   }
